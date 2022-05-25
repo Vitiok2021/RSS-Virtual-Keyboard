@@ -1,0 +1,40 @@
+.container {
+    margin: 150px auto 0;
+    width: 900px;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.row-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.k-key {
+    border: 2px solid rgb(94, 56, 119);
+    color: rgb(94, 56, 119);
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.active {
+    background-color: rgb(94, 56, 119);
+    color: white;
+}
+
+input {
+    background-color: rgb(94, 56, 119, 0.05);
+    padding: 8px 12px;
+    display: block;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
